@@ -7,7 +7,7 @@ body {
 			margin: 0;
 			padding: 0;
 		}
-		.name {
+.name {
 		height: 100%;
 		}
 		h1 {
@@ -29,7 +29,7 @@ body {
 			padding: 0;
 			position: absolute;
 			top: 110%;
-			Background: rgba(0,0,0,0.7)
+			background: rgba(0,0,0,0.7)
 		}
 		p {
 			color: white;
@@ -59,7 +59,7 @@ body {
 		}
 	@media (max-width: 800px) {
 		.image {
-   			text-align: center;
+   		text-align: center;
 			padding: 4vh 0;
 			width: 65%;
 			margin-left: 17.5%;
