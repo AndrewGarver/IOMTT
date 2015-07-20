@@ -1,0 +1,2051 @@
+var data = [
+  {
+    "Rider":"Victor Surridge",
+    "Date":"06/27/1911",
+    "Place":"Glen Helen",
+    "Race":"1911 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Rudge-Whitworth"
+  },
+  {
+    "Rider":"Frank R Bateman",
+    "Date":"06/06/1913",
+    "Place":"Creg-Ny-Baa",
+    "Race":"1913 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"499cc Rudge"
+  },
+  {
+    "Rider":"Fred Walker",
+    "Date":"05/19/1914",
+    "Place":"Bray Hill",
+    "Race":"1914 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"Royal Enfield"
+  },
+  {
+    "Rider":"J H H Veasey",
+    "Date":"06/15/1923",
+    "Place":"Greeba Bridge",
+    "Race":"1923 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"500cc Douglas"
+  },
+  {
+    "Rider":"Ned Brew",
+    "Date":"09/15/1923",
+    "Place":"Hillberry Corner",
+    "Race":"1923 Manx Amateur Road Races",
+    "Event":"Practice",
+    "Machine":"Frera"
+  },
+  {
+    "Rider":"J T A Temple",
+    "Date":"08/31/1925",
+    "Place":"Glentramman",
+    "Race":"1925 Manx Amateur Road Races",
+    "Event":"Practice",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Archie Birkin",
+    "Date":"06/07/1927",
+    "Place":"Rhencullen",
+    "Race":"1927 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"500cc McEvoy"
+  },
+  {
+    "Rider":"John Cooke",
+    "Date":"06/15/1927",
+    "Place":"Mountain Box",
+    "Race":"1927 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"249cc DOT"
+  },
+  {
+    "Rider":"Cecil Ashby",
+    "Date":"06/10/1929",
+    "Place":"Ballacraine",
+    "Race":"1929 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"New Imperial"
+  },
+  {
+    "Rider":"Doug Lamb",
+    "Date":"06/14/1929",
+    "Place":"Greeba Bridge",
+    "Race":"1929 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Freddie Hicks",
+    "Date":"06/19/1931",
+    "Place":"Union Mills",
+    "Race":"1931 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"AJS"
+  },
+  {
+    "Rider":"Frank Longman",
+    "Date":"06/14/1933",
+    "Place":"Glentramman",
+    "Race":"1933 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"Excelsior"
+  },
+  {
+    "Rider":"Arthur Pilling",
+    "Date":"08/31/1933",
+    "Place":"Hillberry Corner",
+    "Race":"1933 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Syd Crabtree",
+    "Date":"06/13/1934",
+    "Place":"Stonebreakers Hut",
+    "Race":"1934 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"Excelsior"
+  },
+  {
+    "Rider":"John Gilbert",
+    "Date":"09/03/1934",
+    "Place":"Sulby",
+    "Race":"1934 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Velocette"
+  },
+  {
+    "Rider":"J.P.Williamson",
+    "Date":"09/06/1934",
+    "Place":"Kirk Michael",
+    "Race":"1934 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"498cc Rudge"
+  },
+  {
+    "Rider":"J.A.MacDonald",
+    "Date":"06/17/1935",
+    "Place":"Union Mills",
+    "Race":"1935 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Doug Pirie",
+    "Date":"06/19/1935",
+    "Place":"Mile 33",
+    "Race":"1935 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"New Imperial"
+  },
+  {
+    "Rider":"Jack Moore",
+    "Date":"06/13/1938",
+    "Place":"Mountain Box",
+    "Race":"1938 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Percy Pritlove",
+    "Date":"09/12/1938",
+    "Place":"Union Mills",
+    "Race":"1938 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Vincent HRD"
+  },
+  {
+    "Rider":"Karl Gall",
+    "Date":"06/02/1939",
+    "Place":"Ballaugh Bridge",
+    "Race":"1939 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"BMW"
+  },
+  {
+    "Rider":"A.W.F.Johns",
+    "Date":"08/26/1946",
+    "Place":"Quarry Bends",
+    "Race":"1946 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Peter M Aitchinson",
+    "Date":"09/05/1946",
+    "Place":"Mile 33",
+    "Race":"1946 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Benjy Russell",
+    "Date":"09/09/1947",
+    "Place":"School House Corner",
+    "Race":"1947 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"Moto-Guzzi"
+  },
+  {
+    "Rider":"Johan Erik van Tilburg",
+    "Date":"05/28/1948",
+    "Place":"Windy Corner",
+    "Race":"1948 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"350cc AJS"
+  },
+  {
+    "Rider":"Thomas Bryant",
+    "Date":"06/03/1948",
+    "Place":"Hillberry Corner",
+    "Race":"1948 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Velocette"
+  },
+  {
+    "Rider":"Neil ('Noel') Christmas",
+    "Date":"06/11/1948",
+    "Place":"Douglas Road Corner",
+    "Race":"1948 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Ben Drinkwater",
+    "Date":"06/13/1949",
+    "Place":"Mile 11",
+    "Race":"1949 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"350cc Norton"
+  },
+  {
+    "Rider":"John Makaula-White",
+    "Date":"05/29/1950",
+    "Place":"Handley's Corner",
+    "Race":"1950 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"500cc Triumph"
+  },
+  {
+    "Rider":"Thomas A. Westfield",
+    "Date":"05/30/1950",
+    "Place":"Keppel Gate",
+    "Race":"1950 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"500cc Triumph"
+  },
+  {
+    "Rider":"Alfred Bent",
+    "Date":"09/08/1950",
+    "Place":"Birkin's Bend",
+    "Race":"1950 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Velocette"
+  },
+  {
+    "Rider":"Leonard C Bolshaw",
+    "Date":"05/29/1951",
+    "Place":"Mile 32",
+    "Race":"1951 Isle of Man TT",
+    "Event":"Practice – Senior Clubmans",
+    "Machine":"Triumph"
+  },
+  {
+    "Rider":"John P. O’Driscoll",
+    "Date":"05/31/1951",
+    "Place":"Mile 33",
+    "Race":"1951 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Rudge"
+  },
+  {
+    "Rider":"John T Wenman",
+    "Date":"06/04/1951",
+    "Place":"Rhencullen",
+    "Race":"1951 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Doug L Parris",
+    "Date":"06/04/1951",
+    "Place":"Bungalow",
+    "Race":"1951 Isle of Man TT",
+    "Event":"Junior Clubman Race",
+    "Machine":"Douglas"
+  },
+  {
+    "Rider":"Chris Horn",
+    "Date":"06/08/1951",
+    "Place":"Laurel Bank",
+    "Race":"1951 Isle of Man TT",
+    "Event":"Senior TT Race",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"J.M. Crowe",
+    "Date":"09/14/1951",
+    "Place":"Appledene",
+    "Race":"1951 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Frank Fry",
+    "Date":"06/04/1952",
+    "Place":"Mile 13",
+    "Race":"1952 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Brian A. Jackson",
+    "Date":"09/02/1952",
+    "Place":"Brandywell",
+    "Race":"1952 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"496cc Norton"
+  },
+  {
+    "Rider":"Ivor K. Arber",
+    "Date":"09/02/1952",
+    "Place":"Hillberry Corner",
+    "Race":"1952 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Kenneth R.V. James",
+    "Date":"09/05/1952",
+    "Place":"Cronk-ny-Mona",
+    "Race":"1952 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc Manx Norton"
+  },
+  {
+    "Rider":"Michael Richardson",
+    "Date":"09/11/1952",
+    "Place":"Bray Hill",
+    "Race":"1952 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"348cc AJS"
+  },
+  {
+    "Rider":"Harry L Stephen",
+    "Date":"06/08/1953",
+    "Place":"Bishopscourt",
+    "Race":"1953 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Thomas W Swarbrick",
+    "Date":"06/08/1953",
+    "Place":"Mile 13",
+    "Race":"1953 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"350cc AJS"
+  },
+  {
+    "Rider":"Les Graham",
+    "Date":"06/12/1953",
+    "Place":"Quarterbridge",
+    "Race":"1953 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"500cc MV Agusta"
+  },
+  {
+    "Rider":"Geoffrey G. Walker",
+    "Date":"06/12/1953",
+    "Place":"Kerrowmoar",
+    "Race":"1953 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Raymond G Ashford",
+    "Date":"06/07/1954",
+    "Place":"Laurel Bank",
+    "Race":"1954 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"350cc BSA"
+  },
+  {
+    "Rider":"Simon Sandys-Winsch",
+    "Date":"06/18/1954",
+    "Place":"The Highlander",
+    "Race":"1954 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"350cc Velocette"
+  },
+  {
+    "Rider":"Ronald Butler",
+    "Date":"09/07/1954",
+    "Place":"Birkin's Bend",
+    "Race":"1954 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"350cc AJS"
+  },
+  {
+    "Rider":"Eric W. Milton",
+    "Date":"09/03/1955",
+    "Place":"Birkin's Bend",
+    "Race":"1955 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"499cc BSA"
+  },
+  {
+    "Rider":"James Watson Davie",
+    "Date":"09/06/1955",
+    "Place":"Gooseneck",
+    "Race":"1955 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"AJS"
+  },
+  {
+    "Rider":"David Merridan",
+    "Date":"06/11/1956",
+    "Place":"Ballaugh Bridge",
+    "Race":"1956 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"499cc BSA Gold Star"
+  },
+  {
+    "Rider":"Peter G Kirkham",
+    "Date":"06/14/1956",
+    "Place":"Water Works Corner",
+    "Race":"1956 Isle of Man TT",
+    "Event":"Junior Clubmans",
+    "Machine":"350cc BSA"
+  },
+  {
+    "Rider":"Maurice W. Saluz",
+    "Date":"08/31/1956",
+    "Place":"Sulby",
+    "Race":"1956 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Charles F Salt",
+    "Date":"06/07/1957",
+    "Place":"Ballacraine",
+    "Race":"1957 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"BSA"
+  },
+  {
+    "Rider":"John F. Antram",
+    "Date":"05/26/1958",
+    "Place":"Cruickshanks Corner",
+    "Race":"1958 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"AJS"
+  },
+  {
+    "Rider":"Desmond D. Woolf",
+    "Date":"06/06/1958",
+    "Place":"Barregarrow",
+    "Race":"1958 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"498cc Norton"
+  },
+  {
+    "Rider":"Maurice Wassell",
+    "Date":"09/05/1958",
+    "Place":"Mile 32",
+    "Race":"1958 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"350cc AJS"
+  },
+  {
+    "Rider":"John Hutchinson",
+    "Date":"09/08/1958",
+    "Place":"Mile 32",
+    "Race":"1958 Manx Grand Prix",
+    "Event":"Snaefell Race",
+    "Machine":"350cc BSA"
+  },
+  {
+    "Rider":"James E. Coates",
+    "Date":"09/05/1959",
+    "Place":"Mile 33",
+    "Race":"1959 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"AJS"
+  },
+  {
+    "Rider":"John D. Hamilton",
+    "Date":"09/10/1959",
+    "Place":"Mile 33",
+    "Race":"1959 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"John T. Sapsford",
+    "Date":"09/08/1960",
+    "Place":"Mile 13",
+    "Race":"1960 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"500cc BSA"
+  },
+  {
+    "Rider":"Michael T Brookes",
+    "Date":"06/10/1961",
+    "Place":"Glentramman",
+    "Race":"1961 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"499cc Norton"
+  },
+  {
+    "Rider":"Marie Lambert",
+    "Date":"06/12/1961",
+    "Place":"Gob-Ny-Geay",
+    "Race":"1961 Isle of Man TT",
+    "Event":"Sidecar TT (Passenger)",
+    "Machine":"BMW"
+  },
+  {
+    "Rider":"Ralph Rensen",
+    "Date":"06/16/1961",
+    "Place":"Mile 11",
+    "Race":"1961 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Geofrey J Griffin",
+    "Date":"08/31/1961",
+    "Place":"The Nook",
+    "Race":"1961 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc G50 Matchless"
+  },
+  {
+    "Rider":"Fred Neville",
+    "Date":"09/05/1961",
+    "Place":"Appledene",
+    "Race":"1961 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"350cc AJS"
+  },
+  {
+    "Rider":"Tom Phillis",
+    "Date":"06/06/1962",
+    "Place":"Laurel Bank",
+    "Race":"1962 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"285cc Honda"
+  },
+  {
+    "Rider":"Colin Meehan",
+    "Date":"06/06/1962",
+    "Place":"Union Mills",
+    "Race":"1962 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"349cc AJS"
+  },
+  {
+    "Rider":"Tom Pratt",
+    "Date":"09/04/1962",
+    "Place":"Appledene",
+    "Race":"1962 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"348cc Norton"
+  },
+  {
+    "Rider":"Charles E Robinson",
+    "Date":"09/04/1962",
+    "Place":"Bishopscourt",
+    "Race":"1962 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"305cc Honda"
+  },
+  {
+    "Rider":"Geofrey C. Prentice",
+    "Date":"09/04/1962",
+    "Place":"Birkin's Bend",
+    "Race":"1962 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"AJS"
+  },
+  {
+    "Rider":"Keith T. Gawler",
+    "Date":"09/06/1962",
+    "Place":"Pinfold Cottage",
+    "Race":"1962 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"499cc Norton"
+  },
+  {
+    "Rider":"Raymond Rowe",
+    "Date":"09/05/1963",
+    "Place":"Verandah",
+    "Race":"1963 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"499cc Norton"
+  },
+  {
+    "Rider":"Brian W Cockrell",
+    "Date":"06/02/1964",
+    "Place":"Braddan Bridge",
+    "Race":"1964 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Laurence P Essery",
+    "Date":"06/09/1964",
+    "Place":"Ballaugh Bridge",
+    "Race":"1964 Isle of Man TT",
+    "Event":"Sidecar TT (Passenger)",
+    "Machine":"Matchless"
+  },
+  {
+    "Rider":"George B Armstrong",
+    "Date":"09/01/1965",
+    "Place":"Sulby",
+    "Race":"1965 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Triton"
+  },
+  {
+    "Rider":"Toshio Fujii",
+    "Date":"08/26/1966",
+    "Place":"Cruickshanks Corner",
+    "Race":"1966 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"125cc Kawasaki"
+  },
+  {
+    "Rider":"Brian Duffy",
+    "Date":"08/28/1966",
+    "Place":"Mountain Box",
+    "Race":"1966 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Alfred E Shaw",
+    "Date":"06/10/1967",
+    "Place":"Mountain Box",
+    "Race":"1967 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Geoffery Proctor",
+    "Date":"08/29/1967",
+    "Place":"Rhencullen",
+    "Race":"1967 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"248cc Cotton"
+  },
+  {
+    "Rider":"Kenneth E. Herbert",
+    "Date":"09/01/1967",
+    "Place":"Doran's Bend",
+    "Race":"1967 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"499cc Norton"
+  },
+  {
+    "Rider":"Ian D.Veitch",
+    "Date":"06/10/1968",
+    "Place":"Ballagarey Corner",
+    "Race":"1968 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"Kawasaki"
+  },
+  {
+    "Rider":"Peter Ray",
+    "Date":"09/03/1968",
+    "Place":"Ballaugh Bridge",
+    "Race":"1968 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"Aermacchi"
+  },
+  {
+    "Rider":"Roger Perrier",
+    "Date":"09/03/1968",
+    "Place":"Kirk Michael",
+    "Race":"1968 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Arthur Lavington",
+    "Date":"06/06/1969",
+    "Place":"Alpine Cottage",
+    "Race":"1969 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"350cc Velocette"
+  },
+  {
+    "Rider":"Gordon V.Taylor",
+    "Date":"08/25/1969",
+    "Place":"Alpine Cottage",
+    "Race":"1969 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"325cc Kawasaki"
+  },
+  {
+    "Rider":"Michael L. Bennett",
+    "Date":"08/26/1969",
+    "Place":"Glen Helen",
+    "Race":"1969 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Iain Sidey",
+    "Date":"08/28/1969",
+    "Place":"Quarterbridge",
+    "Race":"1969 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"Norton"
+  },
+  {
+    "Rider":"Les Iles",
+    "Date":"06/01/1970",
+    "Place":"Kate's Cottage",
+    "Race":"1970 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"125cc Bultaco"
+  },
+  {
+    "Rider":"Michael Collins",
+    "Date":"06/03/1970",
+    "Place":"Verandah",
+    "Race":"1970 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"496cc Seeley"
+  },
+  {
+    "Rider":"Denis Blower",
+    "Date":"06/03/1970",
+    "Place":"Mountain Box",
+    "Race":"1970 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"499cc BSA Sidecar"
+  },
+  {
+    "Rider":"Santiago Herrero",
+    "Date":"06/08/1970",
+    "Place":"Mile 13",
+    "Race":"1970 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"250cc Ossa"
+  },
+  {
+    "Rider":"John Wetherall",
+    "Date":"06/12/1970",
+    "Place":"Milntown",
+    "Race":"1970 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"499cc Norton"
+  },
+  {
+    "Rider":"Brian Steenson",
+    "Date":"06/12/1970",
+    "Place":"Mountain Box",
+    "Race":"1970 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"498cc Seeley"
+  },
+  {
+    "Rider":"George Collis",
+    "Date":"09/01/1970",
+    "Place":"Handley's Corner",
+    "Race":"1970 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"Yamaha"
+  },
+  {
+    "Rider":"Brian Finch",
+    "Date":"06/09/1971",
+    "Place":"Ballacraine",
+    "Race":"1971 Isle of Man TT",
+    "Event":"500cc Production Race",
+    "Machine":"500cc Suzuki"
+  },
+  {
+    "Rider":"Maurice A.Jeffery",
+    "Date":"06/12/1971",
+    "Place":"Rhencullen",
+    "Race":"1971 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"499cc Manx Norton"
+  },
+  {
+    "Rider":"Gilberto Parlotti",
+    "Date":"06/09/1972",
+    "Place":"Verandah",
+    "Race":"1972 Isle of Man TT",
+    "Event":"Ultra-Lightweight TT",
+    "Machine":"125cc Morbidelli"
+  },
+  {
+    "Rider":"Chris M. Clarke",
+    "Date":"08/28/1972",
+    "Place":"Glen Helen",
+    "Race":"1972 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"John L. Clarke",
+    "Date":"06/02/1973",
+    "Place":"Union Mills",
+    "Race":"1973 Isle of Man TT",
+    "Event":"250cc Production TT",
+    "Machine":"Suzuki T20 Super Six"
+  },
+  {
+    "Rider":"Eric R. Piner",
+    "Date":"09/05/1973",
+    "Place":"Kirk Michael",
+    "Race":"1973 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Peter L. Hardy",
+    "Date":"05/27/1974",
+    "Place":"Laurel Bank",
+    "Race":"1974 Isle of Man TT",
+    "Event":"Practice – Sidecar",
+    "Machine":"750cc HTS – Imp"
+  },
+  {
+    "Rider":"David J. Nixon",
+    "Date":"06/01/1974",
+    "Place":"Glen Helen",
+    "Race":"1974 Isle of Man TT",
+    "Event":"1000cc Production TT",
+    "Machine":"741cc Triumph Trident"
+  },
+  {
+    "Rider":"Nigel J. Christian",
+    "Date":"08/26/1974",
+    "Place":"Windy Corner",
+    "Race":"1974 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"David Forrester",
+    "Date":"09/03/1974",
+    "Place":"Glen Helen",
+    "Race":"1974 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"350cc Kirby – Metisse"
+  },
+  {
+    "Rider":"Peter McKinley",
+    "Date":"05/28/1975",
+    "Place":"Milntown",
+    "Race":"1975 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"700cc Yamaha"
+  },
+  {
+    "Rider":"Phil Gurner",
+    "Date":"06/04/1975",
+    "Place":"Milntown",
+    "Race":"1975 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"351cc Yamaha"
+  },
+  {
+    "Rider":"Brian McComb",
+    "Date":"09/02/1975",
+    "Place":"Barregarrow",
+    "Race":"1975 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Walter Wörner",
+    "Date":"06/07/1976",
+    "Place":"Greeba Castle",
+    "Race":"1976 Isle of Man TT",
+    "Event":"Sidecar TT",
+    "Machine":"496cc Yamaha"
+  },
+  {
+    "Rider":"Les Kenny",
+    "Date":"06/12/1976",
+    "Place":"Union Mills",
+    "Race":"1976 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"David Featherstone",
+    "Date":"09/07/1976",
+    "Place":"Alpine Cottage",
+    "Race":"1976 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"D.A.Hamer (police officer)",
+    "Date":"09/07/1976",
+    "Place":"Union Mills",
+    "Race":"1976 Manx Grand Prix",
+    "Event":"Senior Manx Grand Prix",
+    "Machine":""
+  },
+  {
+    "Rider":"Peter Tulley",
+    "Date":"08/30/1977",
+    "Place":"Alpine Cottage",
+    "Race":"1977 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"348cc Yamaha"
+  },
+  {
+    "Rider":"Ivan Houston",
+    "Date":"08/31/1977",
+    "Place":"Glen Helen",
+    "Race":"1977 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Norman Tricoglus",
+    "Date":"09/03/1977",
+    "Place":"Rhencullen",
+    "Race":"1977 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc Yamaha"
+  },
+  {
+    "Rider":"Neil Edwards",
+    "Date":"09/07/1977",
+    "Place":"Cruickshanks Corner",
+    "Race":"1977 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"Steven Davis",
+    "Date":"06/01/1978",
+    "Place":"Laurel Bank",
+    "Race":"1978 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"347cc Yamaha"
+  },
+  {
+    "Rider":"Mac Hobson",
+    "Date":"06/05/1978",
+    "Place":"Bray Hill",
+    "Race":"1978 Isle of Man TT",
+    "Event":"Sidecar TT",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Kenny Birch",
+    "Date":"06/05/1978",
+    "Place":"Bray Hill",
+    "Race":"1978 Isle of Man TT",
+    "Event":"Sidecar TT(Passenger)",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Ernst Trachsel",
+    "Date":"06/05/1978",
+    "Place":"Quarterbridge",
+    "Race":"1978 Isle of Man TT",
+    "Event":"Sidecar TT",
+    "Machine":"499cc Suzuki"
+  },
+  {
+    "Rider":"Mike Adler",
+    "Date":"06/09/1978",
+    "Place":"Glen Helen",
+    "Race":"1978 Isle of Man TT",
+    "Event":"Classic TT",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"Michael L. Sharpe",
+    "Date":"08/29/1978",
+    "Place":"Cruickshanks Corner",
+    "Race":"1978 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"347cc Yamaha"
+  },
+  {
+    "Rider":"Steve Verne",
+    "Date":"06/04/1979",
+    "Place":"Barregarrow",
+    "Race":"1979 Isle of Man TT",
+    "Event":"Sidecar TT",
+    "Machine":"738cc Suzuki"
+  },
+  {
+    "Rider":"Fred Launchbury",
+    "Date":"06/08/1979",
+    "Place":"Glentramman",
+    "Race":"1979 Isle of Man TT",
+    "Event":"Formula III",
+    "Machine":"248cc Maico"
+  },
+  {
+    "Rider":"Steven R. Holmes",
+    "Date":"08/27/1979",
+    "Place":"Cruickshanks Corner",
+    "Race":"1979 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"Alain Taylor",
+    "Date":"09/06/1979",
+    "Place":"Rhencullen",
+    "Race":"1979 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"246cc Yamaha"
+  },
+  {
+    "Rider":"Martin B. Ames",
+    "Date":"05/31/1980",
+    "Place":"Quarterbridge",
+    "Race":"1980 Isle of Man TT",
+    "Event":"Sidecar TT",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Andrew M. Holme",
+    "Date":"06/02/1980",
+    "Place":"Glentramman",
+    "Race":"1980 Isle of Man TT",
+    "Event":"Sidecar TT",
+    "Machine":"Yamaha"
+  },
+  {
+    "Rider":"Roger W. Corbett",
+    "Date":"06/06/1980",
+    "Place":"Glen Helen",
+    "Race":"1980 Isle of Man TT",
+    "Event":"Classic Race",
+    "Machine":"948cc Kawasaki"
+  },
+  {
+    "Rider":"Kenneth M. Blake",
+    "Date":"06/09/1981",
+    "Place":"Ballagarey Corner",
+    "Race":"1981 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"Alain K. Atkins",
+    "Date":"09/08/1983",
+    "Place":"School House Corner",
+    "Race":"1983 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"347cc Yamaha"
+  },
+  {
+    "Rider":"Roger J. Cox",
+    "Date":"05/29/1984",
+    "Place":"Sarah's Cottage",
+    "Race":"1984 Isle of Man TT",
+    "Event":"Sidecar Practice",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"David James Millar",
+    "Date":"08/30/1984",
+    "Place":"Pinfold Cottage",
+    "Race":"1984 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"350cc Aermacchi"
+  },
+  {
+    "Rider":"Sven Tomas Eriksson",
+    "Date":"05/28/1985",
+    "Place":"Alpine Cottage",
+    "Race":"1985 Isle of Man TT",
+    "Event":"Practice Sidecar TT (Passenger)",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Mats Urban Eriksson",
+    "Date":"05/28/1985",
+    "Place":"Alpine Cottage",
+    "Race":"1985 Isle of Man TT",
+    "Event":"Practice – Sidecar TT",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Rob Vine",
+    "Date":"06/07/1985",
+    "Place":"Glen Helen",
+    "Race":"1985 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"500cc RG Suzuki"
+  },
+  {
+    "Rider":"Ian Ogden",
+    "Date":"05/28/1986",
+    "Place":"Mile 11",
+    "Race":"1986 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"500cc Suzuki"
+  },
+  {
+    "Rider":"Alan G. Jarvis",
+    "Date":"05/30/1986",
+    "Place":"Quarterbridge",
+    "Race":"1986 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Eugene P. McDonnell",
+    "Date":"06/04/1986",
+    "Place":"Ballaugh Bridge",
+    "Race":"1986 Isle of Man TT",
+    "Event":"Lightweight TT",
+    "Machine":"250cc EMC"
+  },
+  {
+    "Rider":"Andy Cooper",
+    "Date":"06/06/1986",
+    "Place":"Ballaspur",
+    "Race":"1986 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"750cc Suzuki"
+  },
+  {
+    "Rider":"Nigel Hale",
+    "Date":"08/27/1986",
+    "Place":"Sarah's Cottage",
+    "Race":"1986 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc EMC"
+  },
+  {
+    "Rider":"Kenneth P. Norton",
+    "Date":"08/25/1987",
+    "Place":"Mile 33",
+    "Race":"1987 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"Martin Jennings",
+    "Date":"09/01/1987",
+    "Place":"Rhencullen",
+    "Race":"1987 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"350cc Yamaha"
+  },
+  {
+    "Rider":"Ricky Dumble",
+    "Date":"06/02/1988",
+    "Place":"Quarterbridge",
+    "Race":"1988 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Kenneth N. Harmer",
+    "Date":"06/03/1988",
+    "Place":"Water Works Corner",
+    "Race":"1988 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"750cc Honda RC 30"
+  },
+  {
+    "Rider":"Brian Warburton",
+    "Date":"06/03/1988",
+    "Place":"Appledene",
+    "Race":"1988 Isle of Man TT",
+    "Event":"Production TT",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Marco Fattorelli",
+    "Date":"05/30/1989",
+    "Place":"Greeba Castle",
+    "Race":"1989 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"John Mulcahy",
+    "Date":"05/30/1989",
+    "Place":"Barregarrow",
+    "Race":"1989 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"1300cc Suzuki"
+  },
+  {
+    "Rider":"Phil Hogg",
+    "Date":"06/02/1989",
+    "Place":"Ballagarey Corner",
+    "Race":"1989 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"250cc TZ Yamaha"
+  },
+  {
+    "Rider":"Phil Mellor",
+    "Date":"06/07/1989",
+    "Place":"Doran's Bend",
+    "Race":"1989 Isle of Man TT",
+    "Event":"Production TT",
+    "Machine":"1100cc GSXR Suzuki"
+  },
+  {
+    "Rider":"Steve Henshaw",
+    "Date":"06/07/1989",
+    "Place":"Quarry Bends",
+    "Race":"1989 Isle of Man TT",
+    "Event":"Production TT",
+    "Machine":"1000cc FZR Yamaha"
+  },
+  {
+    "Rider":"Colin Keith",
+    "Date":"08/29/1989",
+    "Place":"Hillberry Corner",
+    "Race":"1989 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc BSA"
+  },
+  {
+    "Rider":"Ian Standeven",
+    "Date":"09/06/1989",
+    "Place":"Rhencullen",
+    "Race":"1989 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"347cc Yamaha"
+  },
+  {
+    "Rider":"John Smyth",
+    "Date":"09/08/1989",
+    "Place":"Verandah",
+    "Race":"1989 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"1100cc Suzuki"
+  },
+  {
+    "Rider":"Bernard Trout",
+    "Date":"09/03/1990",
+    "Place":"Greeba Bridge",
+    "Race":"1990 Manx Grand Prix",
+    "Event":"Lightweight Classic",
+    "Machine":"250cc Ducati"
+  },
+  {
+    "Rider":"Kevin Howe",
+    "Date":"09/07/1990",
+    "Place":"School House Corner",
+    "Race":"1990 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"750cc Honda RC30"
+  },
+  {
+    "Rider":"Ian Young",
+    "Date":"05/28/1991",
+    "Place":"Appledene",
+    "Race":"1991 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Suzuki RGV 250cc"
+  },
+  {
+    "Rider":"Petr Hlavatka",
+    "Date":"05/29/1991",
+    "Place":"The Nook",
+    "Race":"1991 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"750cc Suzuki"
+  },
+  {
+    "Rider":"Frank Duffy",
+    "Date":"05/30/1991",
+    "Place":"Kerrowmoar",
+    "Race":"1991 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"125cc Honda"
+  },
+  {
+    "Rider":"Roy Anderson",
+    "Date":"06/01/1991",
+    "Place":"Stonebreakers Hut",
+    "Race":"1991 Isle of Man TT",
+    "Event":"Formula 1 TT",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Paul Rome",
+    "Date":"08/29/1991",
+    "Place":"Cronk-ny-Mona",
+    "Race":"1991 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Mark Jackson",
+    "Date":"09/01/1991",
+    "Place":"Glentramman",
+    "Race":"1991 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"600cc CBR F Honda"
+  },
+  {
+    "Rider":"Manfred Stengl",
+    "Date":"06/06/1992",
+    "Place":"Mile 33",
+    "Race":"1992 Isle of Man TT",
+    "Event":"Formula 1 TT",
+    "Machine":"750cc Suzuki"
+  },
+  {
+    "Rider":"Craig Mason",
+    "Date":"09/03/1992",
+    "Place":"Glentramman",
+    "Race":"1992 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"249cc Yamaha"
+  },
+  {
+    "Rider":"John Judge",
+    "Date":"09/03/1992",
+    "Place":"Rhencullen",
+    "Race":"1992 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc FZR Yamaha"
+  },
+  {
+    "Rider":"Steve Harding",
+    "Date":"06/09/1993",
+    "Place":"Laurel Bank",
+    "Race":"1993 Isle of Man TT",
+    "Event":"600cc Supersport Race",
+    "Machine":"600cc FZR Yamaha"
+  },
+  {
+    "Rider":"Cliff Gobell",
+    "Date":"08/29/1994",
+    "Place":"Quarry Bends",
+    "Race":"1994 Manx Grand Prix",
+    "Event":"Senior Classic",
+    "Machine":"192cc Weslake"
+  },
+  {
+    "Rider":"Kenneth J. Virgo",
+    "Date":"09/03/1993",
+    "Place":"Handley's Corner",
+    "Race":"1993 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Rob Mitchell",
+    "Date":"06/02/1994",
+    "Place":"Gooseneck",
+    "Race":"1994 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Yamaha FZR 600cc"
+  },
+  {
+    "Rider":"Mark Farmer",
+    "Date":"06/02/1994",
+    "Place":"Glen Helen",
+    "Race":"1994 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Britten V-Twin 1000cc"
+  },
+  {
+    "Rider":"Paul Fargher",
+    "Date":"06/03/1995",
+    "Place":"Sulby",
+    "Race":"1995 Isle of Man TT",
+    "Event":"Sidecar TT Practice(Passenger)",
+    "Machine":"600cc Yamaha"
+  },
+  {
+    "Rider":"Duncan Muir",
+    "Date":"08/30/1995",
+    "Place":"Guthrie's Memorial",
+    "Race":"1995 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Nicholas E.A. Teale",
+    "Date":"09/01/1995",
+    "Place":"Alpine Cottage",
+    "Race":"1995 Manx Grand Prix",
+    "Event":"Lightweight",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Aaron Kennedy",
+    "Date":"05/27/1996",
+    "Place":"Crosby",
+    "Race":"1996 Isle of Man TT",
+    "Event":"Sidecar TT Practice(Passenger)",
+    "Machine":"600cc Kawasaki "
+  },
+  {
+    "Rider":"Rob Holden",
+    "Date":"05/31/1996",
+    "Place":"Glen Helen",
+    "Race":"1996 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"916 Ducati"
+  },
+  {
+    "Rider":"Mick Lofthouse",
+    "Date":"05/31/1996",
+    "Place":"Pinfold Cottage",
+    "Race":"1996 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"250cc Spondon Yamaha"
+  },
+  {
+    "Rider":"Stephen J. Tannock",
+    "Date":"06/01/1996",
+    "Place":"Glentramman",
+    "Race":"1996 Isle of Man TT",
+    "Event":"Formula 1 TT",
+    "Machine":"Honda RC 30"
+  },
+  {
+    "Rider":"Nigel Haddon",
+    "Date":"08/19/1996",
+    "Place":"Stonebreakers Hut",
+    "Race":"1996 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"750cc Honda"
+  },
+  {
+    "Rider":"Jack Gow",
+    "Date":"08/19/1996",
+    "Place":"Mile 32",
+    "Race":"1996 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"350cc Norton"
+  },
+  {
+    "Rider":"Russell Waring",
+    "Date":"05/26/1997",
+    "Place":"Union Mills",
+    "Race":"1997 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"125cc TZ Yamaha"
+  },
+  {
+    "Rider":"Colin Gable",
+    "Date":"05/26/1997",
+    "Place":"Ballagarey Corner",
+    "Race":"1997 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"750cc Honda"
+  },
+  {
+    "Rider":"Danny Shimmin",
+    "Date":"08/16/1997",
+    "Place":"Greeba Castle",
+    "Race":"1997 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"349cc Aermacchi"
+  },
+  {
+    "Rider":"Pamela Cannell",
+    "Date":"08/18/1997",
+    "Place":"Bungalow",
+    "Race":"1997 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Roger Bowler",
+    "Date":"08/18/1997",
+    "Place":"Quarry Bends",
+    "Race":"1997 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"500cc Matchless"
+  },
+  {
+    "Rider":"Emmet Nolan",
+    "Date":"08/29/1997",
+    "Place":"Lambfell",
+    "Race":"1997 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"750cc Yamaha"
+  },
+  {
+    "Rider":"Mike Casey",
+    "Date":"06/08/1998",
+    "Place":"Ballagarey Corner",
+    "Race":"1998 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Honda RS 250cc"
+  },
+  {
+    "Rider":"Charles I Hardisty",
+    "Date":"06/12/1998",
+    "Place":"Kerrowmoar",
+    "Race":"1998 Isle of Man TT",
+    "Event":"Production TT",
+    "Machine":"Kawasaki ZXR7RR"
+  },
+  {
+    "Rider":"John Henderson",
+    "Date":"06/12/1998",
+    "Place":"Rhencullen",
+    "Race":"1998 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"Honda 750cc"
+  },
+  {
+    "Rider":"Adam Woodhall",
+    "Date":"08/27/1998",
+    "Place":"Ballaspur",
+    "Race":"1998 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"996cc Suzuki"
+  },
+  {
+    "Rider":"Rob Wingrave",
+    "Date":"08/27/1998",
+    "Place":"Union Mills",
+    "Race":"1998 Manx Grand Prix",
+    "Event":"Senior Classic",
+    "Machine":"500cc Norton"
+  },
+  {
+    "Rider":"Chris East",
+    "Date":"08/31/1998",
+    "Place":"Kirk Michael",
+    "Race":"1998 Manx Grand Prix",
+    "Event":"Senior Classic",
+    "Machine":"Matchless"
+  },
+  {
+    "Rider":"Jack Trustham",
+    "Date":"06/09/1998",
+    "Place":"Kirk Michael",
+    "Race":"1998 Isle of Man TT",
+    "Event":"Lap of Honour",
+    "Machine":"Imp Classic 998cc"
+  },
+  {
+    "Rider":"Bernadette Bosman",
+    "Date":"05/31/1999",
+    "Place":"Kirk Michael",
+    "Race":"1999 Isle of Man TT",
+    "Event":"Practice Sidecar TT (Passenger)",
+    "Machine":"600cc Ireson Yamaha"
+  },
+  {
+    "Rider":"Simon Beck",
+    "Date":"06/01/1999",
+    "Place":"Mile 33",
+    "Race":"1999 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Honda RC45"
+  },
+  {
+    "Rider":"Terry Fenton",
+    "Date":"06/07/1999",
+    "Place":"Hillberry Corner",
+    "Race":"1999 Isle of Man TT",
+    "Event":"Sidecar TT (Passenger)",
+    "Machine":"Honda CBR 600cc"
+  },
+  {
+    "Rider":"Stuart Murdoch",
+    "Date":"06/09/1999",
+    "Place":"Ballacraine",
+    "Race":"1999 Isle of Man TT",
+    "Event":"Junior TT",
+    "Machine":"Honda 600cc"
+  },
+  {
+    "Rider":"Martin J. Smith",
+    "Date":"09/03/1999",
+    "Place":"Mile 13",
+    "Race":"1999 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Stephen Wood",
+    "Date":"05/29/2000",
+    "Place":"Parliament Square",
+    "Race":"2000 Isle of Man TT",
+    "Event":"Practice Sidecar TT (passenger)",
+    "Machine":"Baker Yamaha 600cc"
+  },
+  {
+    "Rider":"Chris Ascott",
+    "Date":"05/30/2000",
+    "Place":"Mile 13",
+    "Race":"2000 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Kawasaki ZXR400"
+  },
+  {
+    "Rider":"Raymond Hanna",
+    "Date":"05/31/2000",
+    "Place":"Greeba Castle",
+    "Race":"2000 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"TZ 250cc Yamaha"
+  },
+  {
+    "Rider":"Leslie Williams",
+    "Date":"06/09/2000",
+    "Place":"Ballaugh Bridge",
+    "Race":"2000 Isle of Man TT",
+    "Event":"Production TT",
+    "Machine":"1000cc Honda VTR-SP1"
+  },
+  {
+    "Rider":"Kenneth Munro",
+    "Date":"08/19/2000",
+    "Place":"Ginger Hall",
+    "Race":"2000 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Colin Daniels",
+    "Date":"05/27/2002",
+    "Place":"Bray Hill",
+    "Race":"2002 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"600cc Suzuki"
+  },
+  {
+    "Rider":"Shane Ellis",
+    "Date":"08/19/2002",
+    "Place":"Ballaspur",
+    "Race":"2002 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"1000cc Aprilia"
+  },
+  {
+    "Rider":"Leslie Turner",
+    "Date":"08/19/2002",
+    "Place":"Ballaspur",
+    "Race":"2002 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"600cc Yamaha"
+  },
+  {
+    "Rider":"Phil Hayhurst",
+    "Date":"08/31/2002",
+    "Place":"School House Corner",
+    "Race":"2002 Manx Grand Prix",
+    "Event":"Ultra-Lightweight",
+    "Machine":"124cc Yamaha"
+  },
+  {
+    "Rider":"David Jefferies",
+    "Date":"05/29/2003",
+    "Place":"Crosby",
+    "Race":"2003 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"Suzuki GSX-R1000"
+  },
+  {
+    "Rider":"Martin Farley",
+    "Date":"08/25/2003",
+    "Place":"Alpine Cottage",
+    "Race":"2003 Manx Grand Prix",
+    "Event":"Newcomers",
+    "Machine":"599cc Yamaha"
+  },
+  {
+    "Rider":"Peter Järmann",
+    "Date":"06/02/2003",
+    "Place":"Bray Hill",
+    "Race":"2003 Isle of Man TT",
+    "Event":"Lap of Honour",
+    "Machine":"Bultaco TSS 250cc"
+  },
+  {
+    "Rider":"Serge le Moal",
+    "Date":"05/29/2004",
+    "Place":"Braddan Bridge",
+    "Race":"2004 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"125cc Honda RS"
+  },
+  {
+    "Rider":"Paul Cowley",
+    "Date":"06/02/2004",
+    "Place":"Glen Helen",
+    "Race":"2004 Isle of Man TT",
+    "Event":"Practice Sidecar TT (Passenger)",
+    "Machine":"600cc Yamaha Thundercat"
+  },
+  {
+    "Rider":"Colin Breeze",
+    "Date":"06/05/2004",
+    "Place":"Quarry Bends",
+    "Race":"2004 Isle of Man TT",
+    "Event":"Formula 1 TT",
+    "Machine":"Suzuki GSX-R1000"
+  },
+  {
+    "Rider":"Gavin Feighery",
+    "Date":"08/28/2004",
+    "Place":"Mountain Box",
+    "Race":"2004 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"600cc Suzuki"
+  },
+  {
+    "Rider":"Tommy Clucas",
+    "Date":"09/01/2004",
+    "Place":"Ballaugh Bridge",
+    "Race":"2004 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Joakim Karlsson",
+    "Date":"05/30/2005",
+    "Place":"Douglas Road Corner",
+    "Race":"2005 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"1000cc Suzuki GSXR"
+  },
+  {
+    "Rider":"Les Harah",
+    "Date":"06/04/2005",
+    "Place":"Parliament Square",
+    "Race":"2005 Isle of Man TT",
+    "Event":"Sidecar Race A",
+    "Machine":"600cc Yamaha"
+  },
+  {
+    "Rider":"Gus Scott",
+    "Date":"06/10/2005",
+    "Place":"Rhencullen",
+    "Race":"2005 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"1000cc Honda CBR"
+  },
+  {
+    "Rider":"Geoff Sawyer",
+    "Date":"08/24/2005",
+    "Place":"Union Mills",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"496cc Matchless"
+  },
+  {
+    "Rider":"John Loder",
+    "Date":"08/26/2005",
+    "Place":"Mile 33",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"496cc Seeley"
+  },
+  {
+    "Rider":"Eddie Byers",
+    "Date":"08/31/2005",
+    "Place":"Mile 27",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Junior Classic",
+    "Machine":"350cc 7R AJS"
+  },
+  {
+    "Rider":"Tim Johnson",
+    "Date":"08/31/2005",
+    "Place":"Stonebreakers Hut",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Junior Classic",
+    "Machine":"349cc Aermacchi"
+  },
+  {
+    "Rider":"John Bourke",
+    "Date":"09/01/2005",
+    "Place":"Union Mills",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc Suzuki"
+  },
+  {
+    "Rider":"Don Leeson",
+    "Date":"09/02/2005",
+    "Place":"Quarry Bends",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Ultra-Lightweight",
+    "Machine":"400cc Honda"
+  },
+  {
+    "Rider":"April Bolster (marshal)",
+    "Date":"06/10/2005",
+    "Place":"Kirk Michael",
+    "Race":"2005 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":""
+  },
+  {
+    "Rider":"Tim O’Connell (bystander)",
+    "Date":"08/29/2005",
+    "Place":"Quarterbridge",
+    "Race":"2005 Manx Grand Prix",
+    "Event":"Road Traffic Accident",
+    "Machine":""
+  },
+  {
+    "Rider":"Jun Maeda",
+    "Date":"05/29/2006",
+    "Place":"Union Mills",
+    "Race":"2006 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"1000cc Honda Fireblade"
+  },
+  {
+    "Rider":"Terry Craine",
+    "Date":"08/21/2006",
+    "Place":"Mile 33",
+    "Race":"2006 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Honda"
+  },
+  {
+    "Rider":"Marc Ramsbotham",
+    "Date":"06/08/2007",
+    "Place":"Mile 26",
+    "Race":"2007 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"1000cc GSXR Suzuki"
+  },
+  {
+    "Rider":"Dean Jacob (spectator)",
+    "Date":"06/08/2007",
+    "Place":"Mile 26",
+    "Race":"2007 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":""
+  },
+  {
+    "Rider":"Gregory Kenzig (spectator)",
+    "Date":"06/08/2007",
+    "Place":"Mile 26",
+    "Race":"2007 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":""
+  },
+  {
+    "Rider":"John Goodall",
+    "Date":"08/25/2008",
+    "Place":"Ballacraine",
+    "Race":"2008 Manx Grand Prix",
+    "Event":"Junior Classic Race",
+    "Machine":"AJS 7R 349cc"
+  },
+  {
+    "Rider":"John Crellin",
+    "Date":"06/12/2009",
+    "Place":"Mountain Mile",
+    "Race":"2009 Isle of Man TT",
+    "Event":"Senior TT",
+    "Machine":"1000cc Suzuki"
+  },
+  {
+    "Rider":"Richard Bartlett",
+    "Date":"09/01/2009",
+    "Place":"Kerrowmoar",
+    "Race":"2009 Manx Grand Prix",
+    "Event":"Newcomers Race – Class A",
+    "Machine":"Honda CBR 600cc"
+  },
+  {
+    "Rider":"Paul Dobbs",
+    "Date":"06/10/2010",
+    "Place":"Ballagarey Corner",
+    "Race":"2010 Isle of Man TT",
+    "Event":"Supersport TT Race 2",
+    "Machine":"600cc Suzuki"
+  },
+  {
+    "Rider":"Martin Loicht",
+    "Date":"06/10/2010",
+    "Place":"Quarry Bends",
+    "Race":"2010 Isle of Man TT",
+    "Event":"Supersport TT Race 2",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Jamie Adam",
+    "Date":"09/01/2010",
+    "Place":"Alpine Cottage",
+    "Race":"2010 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc Suzuki GSX-R"
+  },
+  {
+    "Rider":"Chris Bradshaw",
+    "Date":"09/01/2010",
+    "Place":"Alpine Cottage",
+    "Race":"2010 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc Yamaha R6"
+  },
+  {
+    "Rider":"Bill Currie",
+    "Date":"05/31/2011",
+    "Place":"Ballacrye Corner",
+    "Race":"2011 Isle of Man TT",
+    "Event":"Practice Sidecar TT",
+    "Machine":"600cc LCR Yamaha"
+  },
+  {
+    "Rider":"Kevin Morgan",
+    "Date":"05/31/2011",
+    "Place":"Ballacrye Corner",
+    "Race":"2011 Isle of Man TT",
+    "Event":"Practice Sidecar TT (Passenger)",
+    "Machine":"600cc LCR Yamaha"
+  },
+  {
+    "Rider":"Derek Brien",
+    "Date":"06/06/2011",
+    "Place":"Ballacraine",
+    "Race":"2011 Isle of Man TT",
+    "Event":"Supersport TT Race 1",
+    "Machine":"600cc Yamaha"
+  },
+  {
+    "Rider":"Neil Kent",
+    "Date":"08/24/2011",
+    "Place":"Greeba Bridge",
+    "Race":"2011 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"250cc Yamaha"
+  },
+  {
+    "Rider":"Wayne Hamilton",
+    "Date":"08/29/2011",
+    "Place":"Mile 13",
+    "Race":"2011 Manx Grand Prix",
+    "Event":"Junior",
+    "Machine":"600cc Yamaha R6"
+  },
+  {
+    "Rider":"Adam Easton",
+    "Date":"08/31/2011",
+    "Place":"Lambfell",
+    "Race":"2011 Manx Grand Prix",
+    "Event":"500cc Classic",
+    "Machine":"499cc Norton Manx"
+  },
+  {
+    "Rider":"Steve Osborne",
+    "Date":"08/24/2012",
+    "Place":"Quarterbridge",
+    "Race":"2012 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"650cc Hyosung"
+  },
+  {
+    "Rider":"Trevor Ferguson",
+    "Date":"08/29/2012",
+    "Place":"The Nook",
+    "Race":"2012 Manx Grand Prix",
+    "Event":"Super-Twin Race",
+    "Machine":"650cc Kawasaki"
+  },
+  {
+    "Rider":"Yoshinari Matsushita",
+    "Date":"05/27/2013",
+    "Place":"Ballacrye Corner",
+    "Race":"2013 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"600cc Suzuki"
+  },
+  {
+    "Rider":"Bob Price",
+    "Date":"06/02/2014",
+    "Place":"Ballaugh Bridge",
+    "Race":"2014 Isle of Man TT",
+    "Event":"Supersport TT Race 1",
+    "Machine":"600cc Yamaha"
+  },
+  {
+    "Rider":"Karl Harris",
+    "Date":"06/03/2014",
+    "Place":"Mile 26",
+    "Race":"2014 Isle of Man TT",
+    "Event":"Superstock TT",
+    "Machine":"1000cc Kawasaki"
+  },
+  {
+    "Rider":"Stephen McIlvenna",
+    "Date":"08/19/2014",
+    "Place":"Mountain Mile",
+    "Race":"2014 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"600cc Yamaha"
+  },
+  {
+    "Rider":"Tim Moorhead",
+    "Date":"08/22/2014",
+    "Place":"Stonebreakers Hut",
+    "Race":"2014 Manx Grand Prix",
+    "Event":"Practice",
+    "Machine":"700cc Suzuki"
+  },
+  {
+    "Rider":"Gary Firth",
+    "Date":"08/29/2014",
+    "Place":"Mile 11",
+    "Race":"2014 Manx Grand Prix",
+    "Event":"Senior",
+    "Machine":"600cc Honda"
+  },
+  {
+    "Rider":"Franck Petricola",
+    "Date":"06/03/2015",
+    "Place":"Sulby",
+    "Race":"2015 Isle of Man TT",
+    "Event":"Practice",
+    "Machine":"BMW S1000RR"
+  },  
+]
+
+// list of unique places to be built as map targets
+var uniquePlaces = [];
+for (i = 0; i < data.length; i++) { 
+  uniquePlaces.push( data[i].Place ) 
+};
+uniquePlaces = uniquePlaces.filter(function(item, pos) {
+    return uniquePlaces.indexOf(item) == pos;
+  }
+);
+uniquePlaces.sort();
+
+// for getting formatted name from circle ID
+var uniquePlacesHash = {};
+for (i=0; i<uniquePlaces.length; i++) {
+  var place = uniquePlaces[i].replace(/ /g,"").replace(/'/g,"").toLowerCase();
+  uniquePlacesHash[place] = uniquePlaces[i];
+}
+
+// for comparring rider name as circle id with original
+var uniqueRiderHash = {};
+for (i = 0; i<data.length; i++) {
+  var idName = (data[i].Rider).replace(/ /g,"").replace(/\./g,"").replace(/'/g,"").replace(/’/g,"").replace(/-/g,"").replace(/\(/g,"").replace(/\)/g,"").toLowerCase();
+  uniqueRiderHash[idName] = data[i].Rider;
+}

@@ -3,20 +3,68 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Project1</title>
-	<link rel="stylesheet" href="project1.css">
-	<script src="jquery-2.1.4.js"></script>
+	<title>IOMTT</title>
+	<link rel="stylesheet" href="./public/stylesheets/normalize.css">
+	<link rel="stylesheet" href="./public/stylesheets/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+	<script src="./public/javascripts/jquery-2.1.4.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+	<script src="./public/javascripts/data.json"></script>
 </head>
 <body>
-<div class="top">
-<div class="color green" id="green"></div>
-<div class="color red" id="red"></div>
-</div>
-<div class="bottom">
-<div class="color yellow" id="yellow"></div>
-<div class="color blue" id="blue"></div>
+
+<div id="splash-section" class="wrapper">
+
+	<video id="splash-video" src="./public/images/splash-video.mp4" autoplay loop muted ></video>
+
+	<h1 id="title">Isle of Man TT</h1>
+<!-- 	<a href="#map1">Continue</a> -->
 </div>
 
-<script src="project1.js"></script>	
+<div id="map1" class="map wrapper">
+
+	<h1 id="map1-year" class="map-heading">1911</h1>
+	<div id="map1-info" class="info-box">
+		<br>
+		<br>
+		<br>
+		<p>Press the button below to view the timeline.</p>
+		<p>Each circle represents a named turn on the track.</p>
+		<p>The circles grow in proportion to the lives lost on that turn.</p>
+		<br>
+		<a id="map1-start" href="#">Start</a>
+	</div>
+	<object id="track_map" data="./public/images/testmap2.svg" type="image/svg+xml" height="100%"></object>
+
+	
+</div>
+
+<!-- <div id="backstory" class="wrapper">
+
+	
+</div> -->
+
+<div id="map2" class="map wrapper">
+	<h1 id="map2-year" class="map-heading">1911</h1>
+	<div id="map2-info" class="info-box">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p>Move the slider below to filter by year.</p>
+		<p>Each circle represents a single fatality.</p>
+		<p>Hover over the circles for more info.</p>
+		<br>
+	</div>
+
+	<object id="track_map2" data="./public/images/testmap2.svg" type="image/svg+xml" height="100%"></object>
+
+  <input id="slider" value="0" type="range" min="0" max="80" style="width: 90%" step="1" onchange="renderMap2()">
+	
+</div>
+
+	<script src="./public/javascripts/track.js"></script>
+
 </body>
 </html>

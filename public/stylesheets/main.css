@@ -1,0 +1,97 @@
+/*html, body { height: 100%; }*/
+
+body {
+	margin: 0;
+	background-color: #042029;
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 100;
+/*	overflow: hidden;*/
+}
+
+#backstory{
+    background:url(img/back01.jpg);
+}
+
+a {
+	text-decoration: none;
+	background-color: #042029;
+	color: white;
+	border: solid white 1px;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: white;
+	color: #042029;
+}
+
+span{
+	font-size: 1.5em;
+	color: red;
+}
+
+.wrapper {
+	min-height: 100vh;
+}
+
+#splash-video { 
+	min-height: 100vh;
+	min-width: 100vw;
+	-webkit-filter: brightness(0.7) grayscale(0.5);
+}
+
+.info-box {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: 60vh;
+	margin-left: 10vh;
+	margin-top: 7.5vh;
+	text-align: center;
+	font-size: 1.25em;
+/*	border: solid white 1px;*/
+	padding: 20px;
+}
+
+object {
+	float: right;
+	height: 250%;
+	margin-right: 20px;
+}
+
+#map2 h1 {
+	margin-bottom: -40px;
+}
+
+.map-heading {
+	text-align: center;
+	font-size: 3.5em;
+	margin-bottom: 0px;
+}
+
+
+#splash-section h1 {
+	position: absolute;
+	top: 60vh;
+	margin-left: 30px;
+	font-size: 4em;
+/*	color: rgba(255, 255, 255, 0.7);*/
+
+}
+#splash-section a {
+	position: absolute;
+	top: 85vh;
+	background-color: transparent;
+	font-size: 1.5em;
+	margin-left: 13vw;
+}
+
+#splash-section a:hover {
+	color: white;
+	background-color: #042029; 
+}
+
+#slider {
+	margin-left: 5%;
+}
